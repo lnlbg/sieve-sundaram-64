@@ -1,0 +1,15 @@
+[package]
+name = "sieve-sundaram-64"
+version = "0.1.0"
+edition = "2024"
+authors = ["Lachezar Lazarow : lnlbg@yahoo.com"]
+description = "64-bit interval generalized Sundaram sieve library, sequential and parallel implementation."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/lnlbg/sieve-sundaram-64"
+readme = "README.md"
+
+[[bin]]
+name = "sieve-sundaram-64-cli"
+path = "src/main.rs"
+
+[dependencies]
